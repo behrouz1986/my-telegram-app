@@ -7,8 +7,10 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 app = Flask(__name__)
 
 # 🔑 اطلاعات اصلی پلتفرم (مقادیر خودت رو جایگزین کن)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # توکن دریافت شده از BotFather
-MINI_APP_URL = "https://YOUR-NETLIFY-URL.netlify.app"  # آدرس مینی‌اپ در Netlify
+BOT_TOKEN = "8939164861:AAHsPCOSETHYpQV3eCe6b4tC4fA9VTNSm3Q"
+  # توکن دریافت شده از BotFather
+MINI_APP_URL = "https://splendorous-kringle-bec2bf.netlify.app"
+  # آدرس مینی‌اپ در Netlify
 
 # ---------------------------------------------------------
 # دیتابیس ساده در حافظه (در مراحل بعد به SQLite/Redis ارتقا می‌دهیم)
